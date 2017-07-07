@@ -1,0 +1,107 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.page-wrap {
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 75px;
+  margin: auto;
+  max-width: 1024px;
+  min-width: 768px;
+  min-height: 724px;
+  color: #303030;
+  background: #f3f3f3 url("../images/rs-logo-grey.jpg") no-repeat 80% -125%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header {
+  box-sizing: border-box;
+  padding: 25px 0 0;
+  height: 290px;
+  background: #303030;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 10px;
+}
+
+p {
+  margin: 10px 0 0;
+}
+
+a {
+  color: #8d8d8d;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+section {
+  padding: 20px 115px;
+  text-align: center;
+}
+
+.student-name {
+  color: #0d78af;
+  font-family: 'Oswald', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  border-bottom: 2px solid #d2d2d2;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.student-group {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+footer {
+  box-sizing: border-box;
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 20px;
+  text-align: left;
+  color: #bbb;
+}
+
+footer p {
+  margin: 5px 0;
+}
