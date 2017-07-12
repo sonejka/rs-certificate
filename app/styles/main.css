@@ -105,3 +105,26 @@ footer {
 footer p {
   margin: 5px 0;
 }
+
+
+@media print {
+  /* All your print styles go here */
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+  .page-wrap {
+    max-width: 297mm;
+    min-width: 297mm;
+    width: 297mm;
+    height: 210mm;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header {
+    padding-top: 175px;
+    background: #303030 url("../images/rs-logo-yellow.jpg") no-repeat center 25px;
+  }
+}
