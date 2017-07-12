@@ -20,7 +20,7 @@ body, html {
   color: #303030;
   background: #f3f3f3 url("../images/rs-logo-grey.jpg") no-repeat 80% -125%;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -44,16 +44,17 @@ h1 {
 h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
-  font-size: 36px;
-  margin: 10px;
+  font-size: 40px;
+  margin: 10px 0 10px;
 }
 
 p {
-  margin: 10px 0 0;
+  margin: 20px 0 0;
 }
 
 a {
   color: #8d8d8d;
+  text-decoration: none;
 }
 
 .text-right {
@@ -76,18 +77,18 @@ section {
 .student-name {
   color: #0d78af;
   font-family: 'Oswald', sans-serif;
-  font-size: 34px;
+  font-size: 38px;
   font-weight: 300;
   border-bottom: 2px solid #d2d2d2;
-  padding: 10px 0;
+  padding: 0 0 10px;
   margin-bottom: 20px;
 }
 
 .student-group {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  margin-bottom: 60px;
+  font-size: 26px;
+  margin: 0 0 60px;
 }
 
 footer {
@@ -106,9 +107,14 @@ footer p {
   margin: 5px 0;
 }
 
+footer .date {
+  color: #8d8d8d;
+}
+
 
 @media print {
   /* All your print styles go here */
+
   * {
     -webkit-print-color-adjust: exact;
   }
@@ -119,6 +125,10 @@ footer p {
     height: 210mm;
   }
 
+  @page  {
+    margin: 0;
+  }
+
   header img {
     display: none;
   }
@@ -126,5 +136,9 @@ footer p {
   header {
     padding-top: 175px;
     background: #303030 url("../images/rs-logo-yellow.jpg") no-repeat center 25px;
+  }
+
+  .page-wrap {
+    background: #f3f3f3 url("../images/rs-logo-grey.jpg") no-repeat 80% 45mm;
   }
 }
