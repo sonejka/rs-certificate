@@ -91,6 +91,20 @@ section {
   margin: 0 0 60px;
 }
 
+.signature {
+  position: relative;
+}
+
+.signature:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  height: 0;
+  width: 100%;
+  border-top: 2px solid #d2d2d2;
+}
+
 footer {
   box-sizing: border-box;
   position: absolute;
@@ -100,24 +114,25 @@ footer {
   bottom: 0;
   padding: 0 20px;
   text-align: left;
-  color: #bbb;
+  color: #8d8d8d;
 }
 
 footer p {
   margin: 5px 0;
+  line-height: 16px;
+  font-size: 16px;
 }
 
 footer .date {
-  color: #8d8d8d;
+  clear: both;
 }
-
 
 @media print {
   /* All your print styles go here */
-
   * {
     -webkit-print-color-adjust: exact;
   }
+
   .page-wrap {
     max-width: 297mm;
     min-width: 297mm;
@@ -125,7 +140,7 @@ footer .date {
     height: 210mm;
   }
 
-  @page  {
+  @page {
     margin: 0;
   }
 
